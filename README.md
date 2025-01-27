@@ -2,7 +2,7 @@
 
 Here, we developed a Super Resolution Generative Adversarial Network (SRGAN) to enhance the quality of Smartphone Images. While using our model for the first time, training should be done.
 
-**Ensure you have the necessary Python libraries installed:**
+**Ensure that necessary Python libraries are installed:**
 
    ```bash
    pip install torch torchvision tensorboard tqdm
