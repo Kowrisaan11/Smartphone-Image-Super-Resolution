@@ -136,7 +136,7 @@ def main():
 
 
 if __name__ == "__main__":
-    try_model = True
+    try_model = False
 
     if try_model:
         # Will just use pretrained weights and run on images
