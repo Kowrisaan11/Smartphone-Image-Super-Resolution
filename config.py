@@ -3,7 +3,7 @@ from PIL import Image
 import albumentations as A
 from albumentations.pytorch import ToTensorV2
 
-LOAD_MODEL = True   #set to True, for load pre-trained models during training.
+LOAD_MODEL = False   #set to True, for load pre-trained models during training.
 SAVE_MODEL = True   #set to True, for save checkpoint files for both the generator and discriminator during training.
 
 # These variables specify the filenames for saving and loading checkpoints for the generator and discriminator, respectively.
