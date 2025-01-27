@@ -9,14 +9,14 @@ Here, we developed a Super Resolution Generative Adversarial Network (SRGAN) to 
    ```
 
 ## To train our model using the train.py file, follow these steps:
-1. **Configure **``** as follows:**
+1. **Configure **config.py** as follows:**
 
    ```python
    LOAD_MODEL = False
    SAVE_MODEL = True
    ```
 
-2. **Configure **``** as follows:**
+2. **Configure **train.py** as follows:**
 
    - At line 139, set:
      ```python
@@ -30,14 +30,14 @@ Here, we developed a Super Resolution Generative Adversarial Network (SRGAN) to 
    ```
 
 ## To test our model using the train.py file, follow these steps:
-1) **Configure **``** as follows:**
+1) **Configure **config.py** as follows:**
 
    ```python
    LOAD_MODEL = True
    SAVE_MODEL = False
    ```
    
-2) **Configure **``** as follows:**
+2) **Configure **train.py** as follows:**
 
    - At line 139, set:
      ```python
