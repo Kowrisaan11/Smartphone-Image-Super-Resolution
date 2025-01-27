@@ -29,3 +29,24 @@ Here, we developed a Super Resolution Generative Adversarial Network (SRGAN) to 
    python train.py
    ```
 
+## To test our model using the train.py file, follow these steps:
+1) **Configure **``** as follows:**
+
+   ```python
+   LOAD_MODEL = True
+   SAVE_MODEL = False
+   ```
+   
+2) **Configure **``** as follows:**
+
+   - At line 139, set:
+     ```python
+     try_model = True
+     ```
+     
+3. **In the terminal, type the following command:**
+
+   ```bash
+   python train.py
+   ```
+
