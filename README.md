@@ -28,6 +28,7 @@ Here, we developed a Super Resolution Generative Adversarial Network (SRGAN) to 
    ```bash
    python train.py
    ```
+After the training, gen.pth & disc.pth files will be generated.
 
 ## To test our model using the train.py file, follow these steps:
 1) **Configure **config.py** as follows:**
