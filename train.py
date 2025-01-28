@@ -131,6 +131,7 @@ def main():
         )
 
         if config.SAVE_MODEL:
+            print("epochs = ", epoch + 1)
             save_checkpoint(gen, opt_gen, filename=config.CHECKPOINT_GEN)
             save_checkpoint(disc, opt_disc, filename=config.CHECKPOINT_DISC)
 
