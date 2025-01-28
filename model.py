@@ -137,8 +137,11 @@ def initialize_weights(model, scale=0.1):
 def test():
     gen = Generator()
     disc = Discriminator()
+
+    # sample image generation
     low_res = 24
     x = torch.randn((5, 3, low_res, low_res))
+    
     gen_out = gen(x)
     disc_out = disc(gen_out)
 
