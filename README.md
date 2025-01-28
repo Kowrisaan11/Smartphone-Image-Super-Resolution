@@ -1,6 +1,6 @@
 # Smartphone-Image-Super-Resolution
 
-Here, we developed a Super Resolution Generative Adversarial Network (SRGAN) to enhance the quality of Smartphone Images. While using our model for the first time, training should be done.
+Here, we developed an ESRGAN (Enhanced Super-Resolution Generative Adversarial Network) to enhance the quality of Smartphone Images. While using our model for the first time, training should be done.
 
 **Ensure that necessary Python libraries are installed:**
 
